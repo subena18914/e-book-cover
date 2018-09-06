@@ -1,0 +1,260 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.clr{
+	clear: both;
+}
+h1,h2,h3,h4,h5,h6{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	display: inline-block;
+}
+ul,ol{
+	list-style: none;
+}
+li{
+	display: inline-block;
+}
+p{
+	line-height: 35px;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+	
+	
+}
+/*global css end*/
+.main-body{
+	/*background: url(../images/background-bg2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+*/
+
+}
+.bg-overlay{
+	
+}
+.slogan{
+	padding: 50px 0px 0px;
+}
+.slogan h1{
+	/*color: #DEE3DE;*/
+	color: #000000;
+	text-align: center;
+	font-size: 40px;
+	font-weight: bolder;
+	font-family: 'Crete Round', serif;
+}
+.slogan h1 b{
+	color: #6BAAD6;
+}
+.main-body-content{
+	color: #ffffff;
+	text-align: center;
+}
+.logo{
+	text-align: center;
+}
+.main-body-content h2{
+	font-size: 30px;
+	text-transform: capitalize;
+	font-weight: normal;
+	padding-top: 30px;
+	/*color: #DEE3DE;*/
+	font-family: 'Crete Round', serif;
+	color: #000000;
+}
+
+
+
+.main-body-content a img{
+	padding-top: 40px;
+}
+.product{
+	padding: 40px 0px;
+	/*background: #FF7573;*/
+}
+.product img{
+	text-align: center;
+	margin:0 auto;
+}
+.mypopup__content{
+	width: 80%;
+}
+.box > a{
+	color: #ffffff;
+	background:  #6BAAD6;
+	padding: 10px 30px;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin-top: 40px;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+.box > a:hover{
+	text-decoration: none;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 30px auto;
+  padding: 20px 40px  40px;
+  background: #fff;
+  border-radius: 5px;
+  width: 80%;
+  height: auto;
+  position: relative;
+  transition: all 5s ease-in-out;
+  color: #000000;
+}
+
+
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover {
+  color: #06D85F;
+}
+.popup .content {
+  max-height: 80%;
+  overflow: hidden;
+}
+.popup .content h2{
+	font-size: 30px;
+	text-transform: capitalize;
+	padding-bottom: 20px;
+	max-width: 900px;
+	margin: 0 auto;
+}
+.popup .content h4{
+	font-size: 18px;
+	text-transform: capitalize;
+	padding-bottom: 30px;
+	max-width: 900px;
+	margin: 0 auto;
+}
+.form-group text-area{
+	width: 100%;
+}
+.content-middle{
+	text-align: center;
+}
+
+.shop{
+	padding-bottom: 40px;
+}
+.sign-up{
+	color: #6BAAD6;
+	background:  #ffffff;
+	padding: 10px 30px;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin-top: 40px;
+	border-radius: 5px;
+	margin-right: 10px;
+}
+.sign-up:hover{
+	color: #6BAAD6;
+	background:  #ffffff;
+}
+.btn-default.focus, .btn-default:focus{
+	color: #ffffff !important;
+	background:  #6BAAD6 !important;
+}
+.form-group input{
+	height: 40px;
+}
+.registration-form{
+	width: 70%;
+	margin: 0 auto;
+	background: #6BAAD6;
+	padding: 40px 20px;
+	border-radius: 10px;
+}
+/*counter*/
+.count {
+    font-size: 5vw;
+    color: #fff;
+    margin: 50px 10px;
+    padding: 1.1vw 2.1vw;
+    display: inline-block;
+    width: 14vw;
+    border-radius: 20px;
+    text-align: center;
+    background: rgba(57,142,198, 0.75);
+    box-shadow: inset 0 -5px 0 rgba(57,142,198, 0.5);
+    font-family: 'Crete Round', serif;
+}
+
+.count:after {
+    font-size: 1.5vw;
+    display: block;
+    margin: 3px 0 -1px;
+    opacity: .8
+}
+
+.count:nth-of-type(1):after {
+    content: "days"
+}
+
+.count:nth-of-type(2):after {
+    content: "hrs"
+}
+
+.count:nth-of-type(3):after {
+    content: "min"
+}
+
+.count:nth-of-type(4):after {
+    content: "sec"
+}
+
+.coundown {
+    position: relative
+}
+
+.coundown:before {
+    
+}
+
+.coundown:after {
+    content: "Time until October 1, 2017 14:00:00";
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    left: 0;
+    font-size: 1.4vw;
+    color: #000000;
+    bottom: 0;
+    font-weight: bold;
+    font-family: 'Crete Round', serif;
+}
